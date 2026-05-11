@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
 import { QRCodeSVG } from 'qrcode.react';
 import { CheckCircle2, ChevronRight, CreditCard } from 'lucide-react';
-import clsx from 'clsx';
 
 export default function Ticket() {
   const [status, setStatus] = useState<'en_camino' | 'parqueado' | 'salida'>('en_camino');

@@ -1,5 +1,5 @@
 import "leaflet/dist/leaflet.css";
-import { MapContainer, TileLayer, Marker, Popup } from "react-leaflet";
+import { MapContainer, TileLayer, Marker } from "react-leaflet";
 import { divIcon } from "leaflet";
 import { Search, MapPin, Bell, Compass } from "lucide-react";
 import { useNavigate } from "react-router-dom";
@@ -55,7 +55,7 @@ export default function Explore() {
           <Search className="text-gray-400 mr-3" size={20} />
           <input 
             type="text" 
-            placeholder="¿A donde vas hoy?" 
+            placeholder="ï¿½A donde vas hoy?" 
             className="flex-1 outline-none text-gray-700 bg-transparent font-medium"
           />
           <button className="text-[#D32F2F] font-bold"><Compass size={18} /></button>
