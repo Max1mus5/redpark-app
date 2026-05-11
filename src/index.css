@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #D32F2F;
+  --color-secondary: #1A237E;
+  --color-success: #4CAF50;
+  --color-warning: #FFC107;
+  --color-dark: #121212;
+  --color-surface-dark: #1E1E1E;
+  --color-surface: #F5F5F6;
+}
+
+@theme {
+  --color-primary: #D32F2F;
+  --color-secondary: #1A237E;
+  --color-success: #4CAF50;
+  --color-warning: #FFC107;
+  --color-dark: #121212;
+  --color-surface-dark: #1E1E1E;
+  --color-surface: #F5F5F6;
+}
+
+body {
+  background-color: #F5F5F6;
+  color: #121212;
+  font-family: "Inter", sans-serif;
+}
+
+.leaflet-container {
+  height: 100%;
+  width: 100%;
+  z-index: 10;
+}
